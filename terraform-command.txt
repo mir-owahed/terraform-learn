@@ -1,0 +1,11 @@
+aws configure
+  310  terraform init
+  311  terraform validate
+  312  terraform init
+  313  terraform validate
+  314  terraform fmt
+  315  terraform plan
+  316  terraform plan -var-file=variables.tfvars
+  317  terraform apply -var-file=variables.tfvars
+  318  terraform plan -var-file=variables.tfvars
+  319  terraform apply -var-file=variables.tfvars
