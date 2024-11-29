@@ -9,3 +9,8 @@ aws configure
   317  terraform apply -var-file=variables.tfvars
   318  terraform plan -var-file=variables.tfvars
   319  terraform apply -var-file=variables.tfvars
+  321  git init
+  322  git add .
+  323  git commit -m "gather.tf deleted and ami edited"
+  324  git push
+  325  terraform destroy -var-file=variables.tfvars --auto-approve
