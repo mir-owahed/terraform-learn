@@ -3,7 +3,7 @@ terraform {
     bucket = "mir-terraform-s3-bucket"
     key    = "jenkins/terraform.tfstate"
     dynamodb_table = "dynamodb-state-locking"
-    region         = "us-east-1"
+    region         = "ap-south-1"
     encrypt        = true
 }
 }
